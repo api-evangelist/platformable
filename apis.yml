@@ -4,8 +4,7 @@ url: >-
 apis:
   - aid: platformable:platformable
     name: Platformable
-    tags:
-      - API
+    tags: []
     humanURL: https://platformable.com
     properties:
       - url: https://platformable.com
@@ -16,9 +15,9 @@ apis:
       governance system.
 name: Platformable
 tags:
+  - Ecosystems
   - Governance
   - Platform
-  - Ecosystems
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
