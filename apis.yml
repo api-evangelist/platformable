@@ -44,6 +44,8 @@ apis:
       - type: Blog
         url: https://platformable.com/blog
 common:
+  - type: GitHubOrganization
+    url: https://github.com/platformable
   - type: Website
     url: https://platformable.com
   - type: Blog
