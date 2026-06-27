@@ -2,17 +2,13 @@
   "repo": "platformable",
   "feeds": [
     {
-      "source": "https://platformable.com",
-      "feed_url": "https://platformable.com",
-      "title": "",
+      "source": "https://platformable.com/blog",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://platformable.com/blog/feed/",
-      "error": "HTTPError"
+      "method": "agent-scrape"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:01:58Z",
+  "agent_pulled": "2026-06-27"
 }
