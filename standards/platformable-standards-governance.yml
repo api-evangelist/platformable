@@ -1,0 +1,306 @@
+specification: API Evangelist Partner Resource Index
+specificationVersion: '0.1'
+provider: Platformable
+providerId: platformable
+created: '2026-07-31'
+modified: '2026-07-31'
+tags:
+  - API Governance
+  - Data Governance
+  - Ecosystems
+  - Open Banking
+  - Digital Health
+  - Traceability
+  - Standards
+  - Research
+description: >-
+  Standards, governance frameworks, models, dashboards, datasets and open code published by
+  Platformable that API Evangelist can reference, cite and link to. Compiled 2026-07-31 by crawling
+  platformable.com (sitemap + product pages + framework posts) and the github.com/platformable
+  organization, as the reference half of the partnership logged in engagements/mark-boyd.md.
+  Every entry below was observed on a live page or in the GitHub API response on that date.
+x-evidence:
+  method: crawl
+  crawled: '2026-07-31'
+  sources:
+    - https://platformable.com/sitemap.xml
+    - https://platformable.com/understand
+    - https://platformable.com/products/api-governance
+    - https://platformable.com/products/data-governance
+    - https://platformable.com/products/datasets
+    - https://platformable.com/products/open-banking
+    - https://platformable.com/blog/measuring-the-value-of-open-ecosystems-1-our-model
+    - https://platformable.com/blog/health-data-governance-framework
+    - https://api.github.com/orgs/platformable/repos
+  caveats:
+    - >-
+      The published sitemap lists 67 URLs and its newest lastmod is 2024-12; several products
+      referenced from live pages (open-banking-accelerator, the digital health maturity dashboard,
+      the traceability ecosystem site, academy.platformable.com) are NOT in it. Treat the sitemap as
+      partial, not as the site index.
+    - >-
+      Licensing is unstated on almost everything. Only two GitHub repos declare a license (0BSD) and
+      no framework page names a license. Do not describe any of this as "open" without asking Mark.
+    - >-
+      Most product pages read "join the waiting list" rather than offering a live purchase. Availability
+      claims below reflect the page as observed, not a commitment.
+
+frameworks:
+  - name: Open Ecosystem Value Model
+    kind: Model
+    url: https://platformable.com/blog/measuring-the-value-of-open-ecosystems-1-our-model
+    description: >-
+      Platformable's core intellectual property and the frame Mark works from. Defines an open
+      ecosystem as "a network of equitable participation opportunities that allow stakeholders to
+      co-create, collaborate, complement, and/or compete" over shared APIs and infrastructure, and
+      models it as three elements — stakeholders, their relationships, and the infrastructure.
+      Assessment approach is taxonomy definition, data modeling, open-standards usage, value network
+      analysis and ecosystem mapping.
+    audience: Digital infrastructure policy leads, API providers, regulators, community advocates
+    series: >-
+      Article 1 of a series; later parts cover why APIs are central, stakeholder relationship types,
+      why measuring value matters, and per-domain value flows (open banking, digital government,
+      public health, circular economy).
+    license: unstated
+    reference_value: >-
+      The demand-side counterpart to the Kin Score. Kin measures what a provider ships; this measures
+      what an ecosystem produces. Cite when framing why a supply-side score is not the whole picture.
+
+  - name: Platformable API Governance Model
+    kind: Model
+    url: https://platformable.com/products/api-governance
+    description: >-
+      Maps how APIs are built and managed inside an organization against industry best practice.
+      Published as a diagram on the product page; the page carries no prose decomposition of the
+      components. The page anchors its definition on Arnaud Lauret's — "API governance is enabling and
+      facilitating people to work together on the right APIs."
+    license: unstated
+    reference_value: >-
+      Directly adjacent to the API Evangelist governance body of work. Ask Mark for the component
+      breakdown before citing specifics — the diagram is the only public statement of it.
+
+  - name: Health Data Governance Framework
+    kind: Framework
+    url: https://platformable.com/blog/health-data-governance-framework
+    description: >-
+      A two-phase framework (six components in phase 1, five in phase 2) for using health data in a
+      secure, safe, ethical and equitable manner. Reviewed by the WHO per the post. Positioned against
+      the European Health Data Space (EHDS) as the regulatory driver.
+    references:
+      - European Health Data Space (EHDS)
+      - WHO
+    audience: Health professionals, data practitioners, policy-makers, researchers
+    license: unstated
+    reference_value: >-
+      Pairs with the healthcare sector work and the regulations site. Note the FHIR gap — this
+      framework is governance-of-data, not an interface standard.
+
+  - name: Data Justice Principles
+    kind: Framework
+    url: https://platformable.com/blog/data-justice-in-health-data-governance
+    description: >-
+      Article 2 of the "Data Governance for Digital Health Ecosystems" series; positioned as sitting at
+      the core of the health data governance framework.
+    license: unstated
+
+  - name: Agri-food data governance code of practice (CSA Group)
+    kind: CodeOfPractice
+    url: null
+    status: in-progress
+    description: >-
+      Mark is the seed-document writer for a Canadian agri-food data governance code of practice for
+      CSA Group (Canada's Standards Association) — he writes the shoulds and shalls, an industry
+      committee debates it for roughly a year, then it evolves toward a standard. Not yet public.
+      Source is the 2026-07-31 conversation, not the website.
+    x-evidence: conversations/transcripts/2026-07-31-mark-boyd.md
+    reference_value: >-
+      The template for the standards-report -> standards-body -> Mark-builds-the-tool play. Watch for
+      publication; it is the first end-to-end proof of the partnership pattern.
+
+dashboards_and_reports:
+  - name: OBOF Trends Report
+    kind: Report
+    url: https://platformable.com/products/open-banking
+    cadence: quarterly
+    description: >-
+      Quarterly open banking / open finance market analysis — market dynamics, pricing, regulation,
+      technology and product innovation, with country-level data, visualizations and spreadsheets.
+      Subscription includes quarterly analyst calls. A free sample report (Q2 2024) was downloadable.
+    coverage: >-
+      Backed by a proprietary global database of bank APIs, described on the page as the best global
+      coverage of banks' APIs.
+    note: >-
+      The page does not enumerate which standards it tracks (PSD2, Berlin Group, UK Open Banking, FDX,
+      CDR); it references regulatory updates generically. Confirm with Mark before claiming coverage of
+      a named standard.
+
+  - name: Open Banking Accelerator
+    kind: Dashboard
+    url: https://platformable.com/products/open-banking-accelerator
+    description: Ecosystem monitoring dashboard for open banking.
+
+  - name: Global Digital Health Policy Maturity Dashboard
+    kind: Dashboard
+    url: https://platformable.com/products/Global-Digital-Health-Policy-Maturity-Dashboard
+    description: Tracks digital health policy maturity globally.
+
+  - name: API Industry Trends Report
+    kind: Report
+    url: https://platformable.com/contact-us
+    description: Platformable's API industry trends report; the page routes to contact rather than a product page.
+
+  - name: Traceability Ecosystem Mapping
+    kind: Dashboard
+    url: https://platformable.com/understand
+    description: >-
+      A dynamic ecosystem website for traceability, alongside agri-food data and digital ecosystem
+      mapping. Traceability is Platformable's newest sector focus.
+    repo: https://github.com/platformable/traceabilitywebsite
+
+datasets:
+  - name: Open Banking / Open Finance
+    data_points: 112
+    access: download, Stripe purchase, enterprise sales
+    status: available
+    url: https://platformable.com/products/datasets
+  - name: API Industry
+    data_points: 58
+    access: download, Stripe purchase
+    status: available
+    url: https://platformable.com/products/datasets
+  - name: Open Health
+    data_points: 200
+    access: waiting list
+    status: coming-soon
+    url: https://platformable.com/products/datasets
+  - name: Government APIs
+    data_points: 200
+    access: waiting list
+    status: coming-soon
+    url: https://platformable.com/products/datasets
+  - name: Privacy Technology
+    data_points: 120
+    access: waiting list
+    status: coming-soon
+    url: https://platformable.com/products/datasets
+x-datasets-note: >-
+  Each dataset has a specification sheet. Formats, update frequency and licensing are not stated on
+  the page. Platformable will also customize a dataset or design one to a client's own data governance
+  model. These five are the most direct overlap with the API Evangelist catalog — Government APIs and
+  API Industry in particular are cohorts apis.io already scores, and Open Health/Privacy are cohorts it
+  does not. Worth a explicit comparison pass before either side publishes overlapping numbers.
+
+training:
+  - name: Health Data Governance (self-paced)
+    url: https://academy.platformable.com/bundle/health-data-governance
+    status: purchasable
+    description: Online self-paced course with exercises, handouts and materials.
+  - name: API Governance self-paced LMS
+    url: https://platformable.com/products/api-governance
+    status: waiting-list
+    description: 3-hour training course with exercises, handouts and materials.
+  - name: API Governance virtual LMS
+    url: https://platformable.com/products/api-governance
+    status: waiting-list
+    description: Online or on-site workshop series, 4 sessions x 2 hours, with group exercises.
+  - name: API Governance Systems App
+    url: https://platformable.com/products/api-governance
+    status: waiting-list
+    description: Browser app for collecting, maintaining and updating governance components.
+  - name: Data Governance Systems App
+    url: https://platformable.com/products/data-governance
+    status: waiting-list
+    description: Browser app for the equivalent data governance components.
+  - name: API / Data Governance Mentoring
+    url: https://platformable.com/products/api-governance
+    status: waiting-list
+    description: Process review, team skills mapping, maturity roadmap development.
+
+open_code:
+  x-note: >-
+    44 public repositories in github.com/platformable as of 2026-07-31. Only two declare a license
+    (0BSD). Most carry no description. Listed below are the ones with reference value to API
+    Evangelist; the rest are website, CMS and client-project repos.
+  repositories:
+    - name: data-governance-toolkit
+      url: https://github.com/platformable/data-governance-toolkit
+      why: The toolkit behind the data governance framework and the governance systems app.
+    - name: api-harmonizer
+      url: https://github.com/platformable/api-harmonizer
+      description: >-
+        "A simple test app to compare multiple, different OAS documents for similarities and
+        differences in what fields are filled in, and what data models are used."
+      why: >-
+        Direct overlap with the API Commons tooling and with the refined OpenAPI corpus — this is
+        cross-spec comparison, which is exactly the shape of the conformance question. Highest-value
+        repo in the org for us.
+    - name: api-harmonizer-spread
+      url: https://github.com/platformable/api-harmonizer-spread
+      why: Spreadsheet companion to the harmonizer.
+    - name: apiplaybook
+      url: https://github.com/platformable/apiplaybook
+      why: Likely the artifact behind the open digital ecosystem playbook Mark named as his next big piece.
+    - name: ecosystem-thinking
+      url: https://github.com/platformable/ecosystem-thinking
+      why: The ecosystem model as code.
+    - name: apidayslandscape
+      url: https://github.com/platformable/apidayslandscape
+      why: >-
+        The APIdays landscape. Relevant to both the APIdays partnership and the API Evangelist
+        landscape/market reports.
+    - name: apidaysserver
+      url: https://github.com/platformable/apidaysserver
+      why: Backend for the APIdays landscape.
+    - name: api-security-landscape-frontend
+      url: https://github.com/platformable/api-security-landscape-frontend
+      why: API security landscape — overlaps the security artifacts and the cybersecurity market report.
+    - name: apisecuritylandscapeserver
+      url: https://github.com/platformable/apisecuritylandscapeserver
+      why: Backend for the security landscape.
+    - name: api-privacy-landscape-frontend
+      url: https://github.com/platformable/api-privacy-landscape-frontend
+      why: API privacy landscape — a cohort apis.io does not currently cut.
+    - name: api-privacy-landscape-server
+      url: https://github.com/platformable/api-privacy-landscape-server
+      why: Backend for the privacy landscape.
+    - name: generic-landscape
+      url: https://github.com/platformable/generic-landscape
+      why: The reusable landscape engine underneath the named landscapes.
+    - name: obofvaluetool
+      url: https://github.com/platformable/obofvaluetool
+      why: Open banking / open finance value tool — the value model made operational.
+    - name: platformableobvtool
+      url: https://github.com/platformable/platformableobvtool
+      description: Platformable Open Banking Value Tool
+      why: Earlier open banking value tool.
+    - name: openbankingvalue
+      url: https://github.com/platformable/openbankingvalue
+      why: Open banking value data/model.
+    - name: charts
+      url: https://github.com/platformable/charts
+      description: Platformable Trends Report Charts
+      why: The chart layer behind the trends reports.
+    - name: pricingtool
+      url: https://github.com/platformable/pricingtool
+      why: Pricing analysis tool — overlaps the plans/pricing artifacts in the catalog.
+
+overlap_with_api_evangelist:
+  complementary:
+    - >-
+      DEMAND vs SUPPLY. Platformable measures ecosystem value and policy maturity; API Evangelist
+      measures what a provider actually ships. The two do not compete and read well together.
+    - >-
+      Country and policy coverage. Mark has country-level open banking and digital health policy data
+      that the catalog does not carry; Kin has per-provider artifacts Mark does not.
+    - >-
+      Sector reach. Traceability, agri-food and digital health policy are Platformable's; the API
+      catalog, Kin Score and standards profiling are Kin's.
+  watch_for_collision:
+    - >-
+      API Industry Trends Report / API Industry dataset (58 data points) vs the API Evangelist market
+      and landscape reports. Closest point of overlap — worth an explicit diff before either publishes.
+    - >-
+      Government APIs dataset (200 data points, coming soon) vs the CKAN/DKAN inventory and EU/state
+      government coverage already in the catalog.
+    - >-
+      API security landscape vs the security artifacts and the cybersecurity market report.

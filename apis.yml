@@ -58,6 +58,8 @@ apis:
 common:
   - type: DomainSecurity
     url: security/platformable-domain-security.yml
+  - type: Standards
+    url: standards/platformable-standards-governance.yml
   - type: GitHubOrganization
     url: https://github.com/platformable
   - type: Website
@@ -68,6 +70,26 @@ common:
     url: https://platformable.com/contact
   - type: LinkedIn
     url: https://www.linkedin.com/company/platformable
+  - type: About
+    url: https://platformable.com/about
+  - type: PlatformableGovernance
+    url: https://platformable.com/products/api-governance
+  - type: PlatformableDataGovernance
+    url: https://platformable.com/products/data-governance
+  - type: PlatformableReports
+    url: https://platformable.com/products/datasets
+  - type: PlatformableTrends
+    url: https://platformable.com/products/open-banking
+  - type: Research
+    url: https://platformable.com/blog/measuring-the-value-of-open-ecosystems-1-our-model
+  - type: Governance
+    url: https://platformable.com/blog/health-data-governance-framework
+  - type: Landscape
+    url: https://github.com/platformable/apidayslandscape
+  - type: Training
+    url: https://academy.platformable.com/bundle/health-data-governance
+  - type: Partners
+    url: https://platformable.com/become-partner
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
