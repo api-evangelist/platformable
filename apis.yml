@@ -35,6 +35,16 @@ tags:
   - API Governance
   - Consultancy
   - Digital Health
+  - Ecosystem
+  - Open Banking
+  - Open Ecosystems
+  - Platform
+  - Traceability
+  - Training
+tags_raw:
+  - API Governance
+  - Consultancy
+  - Digital Health
   - Ecosystems
   - Open Banking
   - Open Ecosystems
@@ -52,6 +62,9 @@ apis:
   - aid: platformable:platformable
     name: Platformable
     tags:
+      - API Governance
+      - Ecosystem
+    tags_raw:
       - API Governance
       - Ecosystems
     humanURL: https://platformable.com
