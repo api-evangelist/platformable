@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/platformable/integrations
+- https://n8n.io/integrations/platformable/
+- https://composio.dev/toolkits/platformable
+- https://monid.ai/tools/platformable
+checked:
+- https://composio.dev/toolkits/platformable
+- https://monid.ai/tools/platformable
+- https://n8n.io/integrations/platformable/
+- https://zapier.com/apps/platformable/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
