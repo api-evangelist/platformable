@@ -1,4 +1,4 @@
-# Platformable (platformable)
+# Platformable
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,77 +66,101 @@
 
 Platformable provides API governance, open ecosystem intelligence, and consultancy services. Their training resources, dashboards, and tools help organizations build comprehensive, automated, high quality API governance systems and participate in open digital ecosystems including open banking, digital health, and traceability.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/apis.yml)
+**Areas:** API Governance · Consultancy · Digital Health · Ecosystem · Open Banking · Open Ecosystems · Platform · Traceability · Training
 
-## Scope
+## Platformable on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Platformable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/platformable/](https://apis.io/providers/platformable/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- API Governance, Consultancy, Digital Health, Ecosystems, Open Banking, Open Ecosystems, Platform, Traceability, Training
+- [Platformable](https://apis.io/apis/platformable/platformable/) — Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system.…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Platformable
+Authentication, trust centre, and vulnerability disclosure.
 
-Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system. Platformable also publishes industry trends reports and runs ecosystem dashboards across open banking, digital health, and traceability.
+- [Platformable Domain Security](https://apis.io/security/platformable/platformable-domain-security/)
 
-- **Human URL:** https://platformable.com
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- API Governance, Ecosystems
+- [Platformable Plans Pricing](https://apis.io/plans/platformable/platformable-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://platformable.com)
-- [Blog](https://platformable.com/blog)
+Published request limits.
 
-## Common Properties
+- [Platformable Rate Limits](https://apis.io/rate-limits/platformable/platformable-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Platformable Finops](https://apis.io/finops/platformable/platformable-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://platformable.com)
 - [Blog](https://platformable.com/blog)
-- [About](https://platformable.com/about)
-- [ContactUs](https://platformable.com/contact)
-- [LinkedIn](https://www.linkedin.com/company/platformable)
-- [GitHubOrganization](https://github.com/platformable)
-- [Partners](https://platformable.com/become-partner)
-- [Standards](standards/platformable-standards-governance.yml)
-- [DomainSecurity](security/platformable-domain-security.yml)
-- [PlatformableGovernance](https://platformable.com/products/api-governance)
-- [PlatformableDataGovernance](https://platformable.com/products/data-governance)
-- [PlatformableReports](https://platformable.com/products/datasets)
-- [PlatformableTrends](https://platformable.com/products/open-banking)
-- [Research](https://platformable.com/blog/measuring-the-value-of-open-ecosystems-1-our-model)
-- [Governance](https://platformable.com/blog/health-data-governance-framework)
-- [Landscape](https://github.com/platformable/apidayslandscape)
-- [Training](https://academy.platformable.com/bundle/health-data-governance)
+- [GitHub](https://github.com/platformable)
 
-## Standards & governance resources
+## API Evangelist rating
 
-Platformable is an **API Evangelist partner** (see `engagements/mark-boyd.md`). The frameworks, dashboards, datasets and open code we can cite are indexed in [standards/platformable-standards-governance.yml](standards/platformable-standards-governance.yml), crawled 2026-07-31.
+**Kin Score 8.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-Highlights:
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
 
-- **Open Ecosystem Value Model** — the demand-side counterpart to the Kin Score. Kin measures what a provider ships; this measures what an ecosystem produces.
-- **Platformable API Governance Model** — published as a diagram only; ask Mark for the component breakdown before citing specifics.
-- **Health Data Governance Framework** (WHO-reviewed, EHDS-framed) + **Data Justice Principles**.
-- **OBOF Trends Report** (quarterly), **Open Banking Accelerator**, **Global Digital Health Policy Maturity Dashboard**, **API Industry Trends Report**.
-- **Five datasets** — Open Banking/Open Finance (112 points) and API Industry (58) available; Open Health (200), Government APIs (200) and Privacy Technology (120) on a waiting list.
-- **44 public GitHub repos**, of which 17 have reference value — notably `api-harmonizer` (cross-OAS comparison), `apiplaybook`, `ecosystem-thinking`, `data-governance-toolkit`, and the APIdays / API security / API privacy landscapes.
+**Agent readiness 0.6** — human-only
 
-**Caveats:** licensing is unstated on nearly everything (only two repos declare 0BSD); the published sitemap is partial and stops at 2024; most products read "join the waiting list" rather than offering live purchase. Watch for collision on the API Industry dataset, the Government APIs dataset, and the API security landscape.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Maintainers
+**Regulatory alignment 4.7** — Banking & Open Finance
 
-**FN:** Kin Lane
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/platformable/](https://apis.io/providers/platformable/).
 
-**Email:** kin@apievangelist.com
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Platformable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/platformable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
